@@ -215,6 +215,12 @@
    .div3{
     margin-left: 50px;
    }
+   .div1{
+    margin-left: 0;
+   }
+   .div2{
+    margin-left: 0;
+   }
 }
 @media screen and (max-width:768px) {
     .text2{
@@ -256,5 +262,11 @@
        }
        .div3{
         margin-left: 50px;
+       }
+       .div1{
+        margin-left: 0;
+       }
+       .div2{
+        margin-left: 0;
        }
 }
