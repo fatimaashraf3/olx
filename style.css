@@ -1,0 +1,260 @@
+.nav1{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 100px;
+    word-spacing: 40px;
+    background-color: #f7f8f8;
+}
+.navicon{
+   font-size: 18px;
+   margin-left: 25px;
+   margin-right: 10px;
+}
+.navhover{
+    font-size: 13px;
+}
+.navhover:hover{
+      color: rgb(43, 43, 237);
+}
+.nav2{
+    padding-left: 90px;
+    background-color: #f7f8f8;
+}
+.btn-group{
+    margin-right: 30px;
+    margin-left: 20px;
+    width: 200px;
+}
+.placeholder{
+    height: 50px;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.button{
+    margin-left: 40px;
+}
+.nav3{
+    margin-left: 100px;
+    display: flex;
+    margin-top: 10px;
+    
+}
+.li a{
+    position: relative;
+    text-decoration: none;
+    margin: 10px;
+    color: #033136;
+}
+.div1{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.div2{
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.text2{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.box1{
+    height: 150px;
+    width: 130px;
+    /* border: 2px solid black; */
+}
+.boxes{
+     display: flex;
+     justify-content: space-evenly;
+     margin-top: 20px;
+}
+.boxes2{
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+}
+.box2{
+    height: 150px;
+    width: 130px;
+    /* border: 2px solid black; */
+    margin-right: 23px;
+}
+.div3{
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.card{
+    margin-top: 30px;
+}
+.container{
+    margin-left: 0px;
+}
+.div4{
+    margin-top: 60px;
+}
+.div5{
+    margin-top: 60px;
+}
+.div6{
+    margin-top: 60px;
+}
+.div7{
+    margin-top: 60px;
+}
+.div8{
+    margin-top: 60px;
+}
+.div9{
+    margin-top: 60px;
+}
+.div10{
+    margin-top: 60px;
+    padding-left: 100px;
+    padding-right: 40px;
+    background-size: cover;
+    background-color: #f7f8f8;
+}
+.flex10{
+    display: flex;
+}
+.text10{
+      margin-top: 30px;
+}
+.flex10 h2{
+    font-weight: 600;
+}
+.flex10 p{
+    font-size: 22px;
+}
+.footer{
+    padding-top: 30px;
+    padding-left: 50px;
+    background-color: #ebeeef;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot1{
+    width: 12%;
+    height: 150px;
+}
+.foot1 h6{
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.foot1 li{
+    font-size: 14px;
+    list-style-type: none;
+    margin: 3px;
+    color: #557477;
+}
+.footer li:hover{
+    color: black;
+}
+.footicons{
+    color: #557477;
+    font-size: 20px;
+    margin: 5px;
+    margin-top: 30px;
+}
+.footborder{
+    margin-right: 6px;
+}
+.footer2{
+    background-color: #002f34;
+    padding-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+.footer2 p{
+    color: white;
+    font-size: 13px;
+}
+@media screen and (max-width:600px) {
+    .text2{
+        font-size: 14px;
+        font-weight: 500;
+        margin-left: 0;
+    }
+    .image2{
+        height: 50px;
+        width: 50px;
+    }
+    .div2{
+        margin-right: 0;
+    }
+    .box1{
+        margin: 20px;
+    }
+   .nav2{
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+   }
+   .button{
+    display: none;
+   }
+   .text10{
+    display: none;
+   }
+   .footer{
+    display: flex;
+    flex-direction: column;
+   }
+   .foot1{
+    margin: 10px;
+    width: 50%;
+   }
+   .boxes2{
+    margin-left: 0;
+   }
+   .div3{
+    margin-left: 50px;
+   }
+}
+@media screen and (max-width:768px) {
+    .text2{
+        font-size: 14px;
+        font-weight: 500;
+        margin-left: 0;
+    }
+    .image2{
+        height: 50px;
+        width: 50px;
+    }
+    .div2{
+        margin-right: 0;
+    }
+    .box1{
+        margin: 20px;
+    }
+    .nav2{
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 0;
+       }
+       .button{
+        display: none;
+       }
+       .text10{
+        display: none;
+       }
+       .footer{
+        display: flex;
+        flex-direction: column;
+       }
+       .foot1{
+        margin: 10px;
+        width: 60%;
+       }
+       .boxes2{
+        margin-left: 0;
+       }
+       .div3{
+        margin-left: 50px;
+       }
+}
